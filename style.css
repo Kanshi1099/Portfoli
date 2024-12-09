@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+.resume {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #ff6347;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.about, 
+.education, 
+.skills, 
+.hobbies, 
+.contact {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #ff6347;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    font-size: 1rem;
+    padding: 10px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+ul li h3 {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+ul li p {
+    font-size: 1rem;
+    color: #666;
+}
+
+footer.footer {
+    text-align: center;
+    background-color: #ff6347;
+    padding: 10px 0;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.contact a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
